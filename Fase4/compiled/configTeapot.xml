@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<scene>
+		<group>
+			<lights>
+				<light type="POINT" posX="1000" posY="1000" posZ="1000" ambR="0.5" ambG="0.5" ambB="0.5" />
+			</lights>
+      <scale x="20" y="20" z="20"/>
+      <rotate angle="-90" x="1"/>
+			<models>
+        <model file="teapot.3d" specR="0.3" specG="0.5" specB="0.5"/>
+      </models>
+		</group>
+	</scene>

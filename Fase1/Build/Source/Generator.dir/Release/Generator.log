@@ -1,0 +1,9 @@
+﻿  Generator.cpp
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Source\Generator\Generator.cpp(114): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Source\Generator\Generator.cpp(162): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Source\Generator\Generator.cpp(163): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Source\Generator\Generator.cpp(196): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Source\Generator\Generator.cpp(152): warning C4101: 'slice': unreferenced local variable
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Source\Generator\Generator.cpp(152): warning C4101: 'stack': unreferenced local variable
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Source\Generator\Generator.cpp(267): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generator.vcxproj -> C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Build\Source\Release\Generator.exe

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<scene>
+		<group>
+			<lights>
+				<light type="POINT" posX="-50.5" posY="0" posZ="0" ambR="0.8" ambG="0.8" ambB="0.8" />
+			</lights>
+			<translate x="-50.5"/>
+			<!--Sol-->
+			<scale x="5.5" y="5.5" z="5.5"/>
+			<models>
+				<model file="sphere.3d" texture="textures/sunmap.jpg" emisR="1.0" emisG="1.0" emisB="1.0"/>
+			</models>
+            <!--Mercurio-->
+			<group>
+				<translate time="10.8797">
+					<point x="3.500000" y="0.000000" z="-0.000000"/>
+					<point x="2.474874" y="0.000000" z="-2.474874"/>
+					<point x="-0.000000" y="0.000000" z="-3.500000"/>
+					<point x="-2.474874" y="0.000000" z="-2.474873"/>
+					<point x="-3.500000" y="0.000000" z="0.000000"/>
+					<point x="-2.474874" y="0.000000" z="2.474873"/>
+					<point x="-0.000001" y="0.000000" z="3.500000"/>
+					<point x="2.474873" y="0.000000" z="2.474875"/>
+				</translate>
+				<scale x="0.15" y="0.15" z="0.15"/>
+				<rotate time="0.785" x="0" y="1" z="0"/>
+				<models>
+					<model file="sphere.3d" texture="textures/mercurymap.jpg"/>
+				</models>
+			</group>
+            <!--Venus-->
+			<group>
+				<translate time="20.47">
+					<point x="5.400000" y="0.000000" z="-0.000000"/>
+					<point x="3.818377" y="0.000000" z="-3.818377"/>
+					<point x="-0.000000" y="0.000000" z="-5.400000"/>
+					<point x="-3.818377" y="0.000000" z="-3.818376"/>
+					<point x="-5.400000" y="0.000000" z="0.000000"/>
+					<point x="-3.818377" y="0.000000" z="3.818376"/>
+					<point x="-0.000002" y="0.000000" z="5.400000"/>
+					<point x="3.818375" y="0.000000" z="3.818378"/>
+				</translate>
+				<scale x="0.20" y="0.20" z="0.20"/>
+				<rotate time="2.4301" x="0" y="1" z="0"/>
+				<models>
+					<model file="sphere.3d" texture="textures/venusmap.jpg"/>
+				</models>
+			</group>
+            <!--Terra-->
+			<group>
+				<translate time="30.65">
+					<point x="7.500000" y="0.000000" z="-0.000000"/>
+					<point x="5.303301" y="0.000000" z="-5.303301"/>
+					<point x="-0.000001" y="0.000000" z="-7.500000"/>
+					<point x="-5.303302" y="0.000000" z="-5.303300"/>
+					<point x="-7.500000" y="0.000000" z="0.000000"/>
+					<point x="-5.303302" y="0.000000" z="5.303300"/>
+					<point x="-0.000002" y="0.000000" z="7.500000"/>
+					<point x="5.303298" y="0.000000" z="5.303303"/>
+				</translate>
+				<scale x="0.25" y="0.25" z="0.25"/>
+				<rotate time="10" x="0" y="1" z="0"/>
+				<models>
+					<model file="sphere.3d" texture="textures/earthmap.jpg" />
+				</models>
+				<!--Lua-->
+				<group>
+					<translate time="30">
+						<point x="1.500000" y="0.000000" z="-0.000000"/>
+						<point x="1.060660" y="0.000000" z="-1.060660"/>
+						<point x="-0.000000" y="0.000000" z="-1.500000"/>
+						<point x="-1.060660" y="0.000000" z="-1.060660"/>
+						<point x="-1.500000" y="0.000000" z="0.000000"/>
+						<point x="-1.060660" y="0.000000" z="1.060660"/>
+						<point x="-0.000000" y="0.000000" z="1.500000"/>
+						<point x="1.060660" y="0.000000" z="1.060661"/>
+					</translate>
+					<scale x="0.15" y="0.15" z="0.15"/>
+					<rotate time="10" x="0" y="1" z="0"/>
+					<models>
+						<model file="sphere.3d" texture="textures/moonmap.jpg"/>
+					</models>
+				</group>
+			</group>
+            <!--Marte-->
+			<group>
+				<translate time="40">
+					<point x="9.500000" y="0.000000" z="-0.000000"/>
+					<point x="6.717515" y="0.000000" z="-6.717515"/>
+					<point x="-0.000001" y="0.000000" z="-9.500000"/>
+					<point x="-6.717515" y="0.000000" z="-6.717513"/>
+					<point x="-9.500000" y="0.000000" z="0.000000"/>
+					<point x="-6.717515" y="0.000000" z="6.717513"/>
+					<point x="-0.000003" y="0.000000" z="9.500000"/>
+					<point x="6.717512" y="0.000000" z="6.717518"/>
+				</translate>
+				<scale x="0.15" y="0.15" z="0.15"/>
+				<rotate time="10" x="0" y="1" z="0"/>
+				<models>
+					<model file="sphere.3d" texture="textures/marsmap.jpg"/>
+				</models>
+			</group>
+            <!--Jupiter-->
+			<group>
+				<translate time="53">
+					<point x="12.500000" y="0.000000" z="-0.000001"/>
+					<point x="8.838835" y="0.000000" z="-8.838835"/>
+					<point x="-0.000001" y="0.000000" z="-12.500000"/>
+					<point x="-8.838836" y="0.000000" z="-8.838833"/>
+					<point x="-12.500000" y="0.000000" z="0.000000"/>
+					<point x="-8.838836" y="0.000000" z="8.838833"/>
+					<point x="-0.000004" y="0.000000" z="12.500000"/>
+					<point x="8.838831" y="0.000000" z="8.838840"/>
+				</translate>
+				<scale x="0.55" y="0.55" z="0.55"/>
+				<rotate time="41" x="0" y="1" z="0"/>
+				<models>
+					<model file="sphere.3d" texture="textures/jupitermap.jpg"/>
+				</models>
+				<!--Calisto-->
+				<group>
+					<translate time="14">
+						<point x="1.500000" y="0.000000" z="-0.000000"/>
+						<point x="1.060660" y="0.000000" z="-1.060660"/>
+						<point x="-0.000000" y="0.000000" z="-1.500000"/>
+						<point x="-1.060660" y="0.000000" z="-1.060660"/>
+						<point x="-1.500000" y="0.000000" z="0.000000"/>
+						<point x="-1.060660" y="0.000000" z="1.060660"/>
+						<point x="-0.000000" y="0.000000" z="1.500000"/>
+						<point x="1.060660" y="0.000000" z="1.060661"/>
+					</translate>
+					<scale x="0.15" y="0.15" z="0.15"/>
+					<rotate time="200" x="0" y="1" z="0"/>
+					<models>
+						<model file="sphere.3d" texture="textures/rockplanetmap.jpg"/>
+					</models>
+				</group>
+				<!--Ganimedes-->
+				<group>
+					<translate time="23">
+						<point x="2.500000" y="0.000000" z="-0.000000"/>
+						<point x="1.767767" y="0.000000" z="-1.767767"/>
+						<point x="-0.000000" y="0.000000" z="-2.500000"/>
+						<point x="-1.767767" y="0.000000" z="-1.767767"/>
+						<point x="-2.500000" y="0.000000" z="0.000000"/>
+						<point x="-1.767767" y="0.000000" z="1.767767"/>
+						<point x="-0.000001" y="0.000000" z="2.500000"/>
+						<point x="1.767766" y="0.000000" z="1.767768"/>
+					</translate>
+					<scale x="0.20" y="0.20" z="0.20"/>
+					<rotate time="10" x="0" y="1" z="0"/>
+					<models>
+						<model file="sphere.3d" texture="textures/rockplanetmap.jpg"/>
+					</models>
+				</group>
+			</group>
+			<!--Saturno-->
+			<group>
+				<translate time="107">
+					<point x="15.500000" y="0.000000" z="-0.000001"/>
+					<point x="10.960155" y="0.000000" z="-10.960155"/>
+					<point x="-0.000001" y="0.000000" z="-15.500000"/>
+					<point x="-10.960156" y="0.000000" z="-10.960153"/>
+					<point x="-15.500000" y="0.000000" z="0.000000"/>
+					<point x="-10.960156" y="0.000000" z="10.960153"/>
+					<point x="-0.000005" y="0.000000" z="15.500000"/>
+					<point x="10.960151" y="0.000000" z="10.960160"/>
+				</translate>
+				<scale x="0.5" y="0.5" z="0.5"/>
+				<rotate time="35" x="0" y="1" z="0"/>
+				<models>
+					<model file="sphere.3d" texture="textures/saturnmap.jpg"/>
+				</models>
+				<!--Tita-->
+				<group>
+					<translate time="35">
+						<point x="1.500000" y="0.000000" z="-0.000000"/>
+						<point x="1.060660" y="0.000000" z="-1.060660"/>
+						<point x="-0.000000" y="0.000000" z="-1.500000"/>
+						<point x="-1.060660" y="0.000000" z="-1.060660"/>
+						<point x="-1.500000" y="0.000000" z="0.000000"/>
+						<point x="-1.060660" y="0.000000" z="1.060660"/>
+						<point x="-0.000000" y="0.000000" z="1.500000"/>
+						<point x="1.060660" y="0.000000" z="1.060661"/>
+					</translate>
+					<scale x="0.1" y="0.1" z="0.1"/>
+					<rotate time="50" x="0" y="1" z="0"/>
+					<models>
+						<model file="sphere.3d" texture="textures/rockplanetmap.jpg"/>
+					</models>
+				</group>
+			</group>
+			<!--Urano-->
+			<group>
+				<translate time="306.4">
+					<point x="18.500000" y="0.000000" z="-0.000001"/>
+					<point x="13.081475" y="0.000000" z="-13.081475"/>
+					<point x="-0.000002" y="0.000000" z="-18.500000"/>
+					<point x="-13.081477" y="0.000000" z="-13.081473"/>
+					<point x="-18.500000" y="0.000000" z="0.000000"/>
+					<point x="-13.081477" y="0.000000" z="13.081473"/>
+					<point x="-0.000006" y="0.000000" z="18.500000"/>
+					<point x="13.081470" y="0.000000" z="13.081482"/>
+				</translate>
+				<scale x="0.4" y="0.4" z="0.4"/>
+				<rotate time="38" x="0" y="1" z="0"/>
+				<models>
+					<model file="sphere.3d" texture="textures/uranusmap.jpg"/>
+				</models>
+			</group>
+			<!--Neptuno-->
+			<group>
+				<translate time="622.5">
+					<point x="20.500000" y="0.000000" z="-0.000001"/>
+					<point x="14.495688" y="0.000000" z="-14.495688"/>
+					<point x="-0.000002" y="0.000000" z="-20.500000"/>
+					<point x="-14.495691" y="0.000000" z="-14.495687"/>
+					<point x="-20.500000" y="0.000000" z="0.000000"/>
+					<point x="-14.495691" y="0.000000" z="14.495687"/>
+					<point x="-0.000006" y="0.000000" z="20.500000"/>
+					<point x="14.495683" y="0.000000" z="14.495696"/>
+				</translate>
+				<scale x="0.3" y="0.3" z="0.3"/>
+				<rotate time="34" x="0" y="1" z="0"/>
+				<models>
+					<model file="sphere.3d" texture="textures/neptunemap.jpg"/>
+ 				</models>
+ 				<!--Tritao-->
+ 				<group>
+ 					<translate time="650">
+						<point x="1.500000" y="0.000000" z="-0.000000"/>
+						<point x="1.060660" y="0.000000" z="-1.060660"/>
+						<point x="-0.000000" y="0.000000" z="-1.500000"/>
+						<point x="-1.060660" y="0.000000" z="-1.060660"/>
+						<point x="-1.500000" y="0.000000" z="0.000000"/>
+						<point x="-1.060660" y="0.000000" z="1.060660"/>
+						<point x="-0.000000" y="0.000000" z="1.500000"/>
+						<point x="1.060660" y="0.000000" z="1.060661"/>
+					</translate>
+ 					<scale x="0.10" y="0.10" z="0.10"/>
+					<rotate time="90" x="0" y="1" z="0"/>
+ 					<models>
+ 						<model file="sphere.3d" texture="textures/rockplanetmap.jpg"/>
+ 					</models>
+ 				</group>
+			</group>
+			<!-- Cometa -->
+			<group>
+				<translate time="80">
+					<point x="12.000000" y="9.000000" z="-0.000000"/>
+					<point x="5.303301" y="0.000000" z="-5.303301"/>
+					<point x="-0.000001" y="0.000000" z="-3.000000"/>
+					<point x="-5.303302" y="0.000000" z="-5.303300"/>
+					<point x="-7.500000" y="0.000000" z="0.000000"/>
+					<point x="-7.303302" y="-7.000000" z="5.303300"/>
+					<point x="-0.000002" y="0.000000" z="7.500000"/>
+					<point x="9.303298" y="0.000000" z="9.303303"/>
+				</translate>
+				<scale x="0.10" y="0.10" z="0.10"/>
+				<rotate time="10" x="0.5" y="1"/>
+				<models>
+					<model file="teapot.3d" texture="textures/rockplanet.jpg"/>
+				</models>
+			</group>
+		</group>
+	</scene>

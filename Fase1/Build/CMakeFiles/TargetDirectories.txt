@@ -1,0 +1,4 @@
+C:/Users/Rafael/Documents/Visual Studio 2015/Projects/Fase 1 CG/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Rafael/Documents/Visual Studio 2015/Projects/Fase 1 CG/Build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Rafael/Documents/Visual Studio 2015/Projects/Fase 1 CG/Build/Source/CMakeFiles/Engine.dir
+C:/Users/Rafael/Documents/Visual Studio 2015/Projects/Fase 1 CG/Build/Source/CMakeFiles/Generator.dir

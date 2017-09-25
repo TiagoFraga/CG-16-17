@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<scene>
+		<group>
+			<translate x="-50.5"/>
+			<!--Sol-->
+			<scale x="5.5" y="5.5" z="5.5"/>
+			<models>
+				<model file="sphere.3d"/>
+			</models>
+			
+            <!--Mercurio-->
+			<group>
+				<translate x="3.5"/>
+				<scale x="0.15" y="0.15" z="0.15"/>
+				<models>
+					<model file="sphere.3d"/>
+				</models>
+			</group>
+            <!--Venus-->
+			<group>
+				<translate x="5.5"/>
+				<scale x="0.20" y="0.20" z="0.20"/>
+				<models>
+					<model file="sphere.3d"/>
+				</models>
+			</group>
+            <!--Terra-->
+			<group>
+				<translate x="7.5"/>
+				<scale x="0.25" y="0.25" z="0.25"/>
+				<models>
+					<model file="sphere.3d"/>
+				</models>
+				<!--Lua-->
+				<group>
+					<translate x="1.5" z="1.5"/>
+					<scale x="0.15" y="0.15" z="0.15"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+            <!--Marte-->
+			<group>
+				<translate x="9.5"/>
+				<scale x="0.15" y="0.15" z="0.15"/>
+				<models>
+					<model file="sphere.3d"/>
+				</models>
+			</group>
+            <!--Jupiter-->
+			<group>
+				<translate x="12.5"/>
+				<scale x="0.55" y="0.55" z="0.55"/>
+				<models>
+					<model file="sphere.3d"/>
+				</models>
+				<!--Calisto-->
+				<group>
+					<translate x="1.5" z="1.5"/> 
+					<scale x="0.15" y="0.15" z="0.15"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+				<!--Ganimedes-->
+				<group>
+					<translate x="-1.5" z="1.5"/> 
+					<scale x="0.20" y="0.20" z="0.20"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+			<!--Saturno-->
+			<group>
+				<translate x="15.5"/>
+				<scale x="0.5" y="0.5" z="0.5"/>
+				<models>
+					<model file="sphere.3d"/>
+				</models> 
+				<!--Tita-->
+				<group>
+					<translate x="1.5" z="1.5"/> 
+					<scale x="0.1" y="0.1" z="0.1"/>
+					<models>
+						<model file="sphere.3d"/>
+					</models>
+				</group>
+			</group>
+			<!--Urano-->
+			<group>
+				<translate x="18.5"/>
+				<scale x="0.4" y="0.4" z="0.4"/>
+				<models>
+					<model file="sphere.3d"/>
+				</models>
+			</group>
+			<!--Neptuno-->
+			<group>
+				<translate x="20.5"/>
+				<scale x="0.3" y="0.3" z="0.3"/>
+				<models>
+					<model file="sphere.3d"/>
+ 				</models>
+ 				<!--Tritao-->
+ 				<group>
+ 					<translate x="1.5" z="1.5"/>
+ 					<scale x="0.10" y="0.10" z="0.10"/>
+ 					<models>
+ 						<model file="sphere.3d"/>
+ 					</models>
+ 				</group>
+			</group>
+		</group>		
+	</scene>

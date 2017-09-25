@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<scene>
+		<group>
+      <scale x="20" y="20" z="20"/>
+      <rotate angle="-90" x="1"/>
+			<models>
+        <model file="teapot.3d"/>
+      </models>
+		</group>
+	</scene>

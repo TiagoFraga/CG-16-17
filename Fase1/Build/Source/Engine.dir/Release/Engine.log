@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Rafael/Documents/Visual Studio 2015/Projects/Fase 1 CG/Source/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Build\Source\CMakeFiles\generate.stamp is up-to-date.
+  Engine.cpp
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Source\Engine\Engine.cpp(104): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  tinyxml2.cpp
+  Generating Code...
+  Engine.vcxproj -> C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Fase 1 CG\Build\Source\Release\Engine.exe
